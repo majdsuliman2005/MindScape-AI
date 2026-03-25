@@ -1,4 +1,4 @@
-# TaskFlow
+# MindScape-AI
 
 Simple To-Do App project
 
