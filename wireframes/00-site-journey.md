@@ -1,20 +1,29 @@
 # Site Journey (User Flow)
 
-## 1. Guest User (غير مسجل)
-- يدخل إلى **Landing Page**.
-- يمكنه الضغط على **Login** أو **Register**.
-- بعد النقر على Login → ينتقل إلى صفحة تسجيل الدخول.
-- بعد النقر على Register → ينتقل إلى صفحة إنشاء حساب.
+## 1. Guest User (Unauthenticated)
 
-## 2. Logged-in User (مسجل دخول)
-- بعد تسجيل الدخول، تظهر **الصفحة الرئيسية للتطبيق** (Dashboard) التي تحتوي على:
-  - نموذج تحليل المشاعر
-  - قائمة المهام
-  - إحصائيات سريعة
-  - أزرار: تمارين التنفس، التحديات اليومية، مؤقت التركيز
-- يمكنه تسجيل الخروج من خلال زر Logout.
+- Visits the Landing Page
+- Can click on Login or Register
+- Clicking Login → navigates to Login Page
+- Clicking Register → navigates to Register Page
 
-## الصفحات المطلوب تنفيذها هذا الأسبوع (Wireframes)
+---
+
+## 2. Logged-in User (Authenticated)
+
+- After logging in, the user is redirected to the Dashboard
+- The user can:
+  - Add a new task
+  - View all tasks
+  - Edit a task
+  - Delete a task
+  - Mark tasks as completed
+- The user can log out using the Logout button
+
+---
+
+## Pages to be designed this week (Wireframes)
+
 - Landing Page (public)
 - Login Page
 - Register Page
